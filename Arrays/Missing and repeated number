@@ -1,0 +1,19 @@
+class Solution {
+    public int[] findMissingAndRepeatedValues(int[][] grid) {
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        for (int[] row : grid) {
+            for (int num : row) {
+
+                if (list.contains(num)) {
+                    // repeated number found
+                }
+
+                list.add(num);
+            }
+        }
+
+        return new int[]{};
+    }
+}
