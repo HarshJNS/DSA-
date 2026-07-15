@@ -1,19 +1,35 @@
 class Solution {
     public int[] findMissingAndRepeatedValues(int[][] grid) {
 
-        ArrayList<Integer> list = new ArrayList<>();
+        int n = grid.length;
 
-        for (int[] row : grid) {
-            for (int num : row) {
+        boolean[] seen = new boolean[n * n + 1];
 
-                if (list.contains(num)) {
-                    // repeated number found
+        int repeated = -1;
+        int missing = -1;
+
+        // Find the repeated number
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+
+                int num = grid[i][j];
+
+                if (seen[num]) {
+                    repeated = num;
+                } else {
+                    seen[num] = true;
                 }
-
-                list.add(num);
             }
         }
 
-        return new int[]{};
+        // Find the missing number
+        for (int i = 1; i <= n * n; i++) {
+            if (!seen[i]) {
+                missing = i;
+                break;
+            }
+        }
+
+        return new int[]{repeated, missing};
     }
 }
