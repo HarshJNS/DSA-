@@ -25,10 +25,12 @@ A collection of my Java solutions for various DSA problems, organized by topic f
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/HarshJNS/DSA-/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/HarshJNS/DSA-/tree/master/0042-trapping-rain-water) |
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/HarshJNS/DSA-/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/HarshJNS/DSA-/tree/master/0042-trapping-rain-water) |
 ## Dynamic Programming
 |  |
@@ -42,4 +44,8 @@ A collection of my Java solutions for various DSA problems, organized by topic f
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/HarshJNS/DSA-/tree/master/0042-trapping-rain-water) |
+## Sorting
+|  |
+| ------- |
+| [0015-3sum](https://github.com/HarshJNS/DSA-/tree/master/0015-3sum) |
 <!---LeetCode Topics End-->
