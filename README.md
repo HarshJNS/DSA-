@@ -27,6 +27,7 @@ A collection of my Java solutions for various DSA problems, organized by topic f
 | ------- |
 | [0015-3sum](https://github.com/HarshJNS/DSA-/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/HarshJNS/DSA-/tree/master/0042-trapping-rain-water) |
+| [0179-largest-number](https://github.com/HarshJNS/DSA-/tree/master/0179-largest-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -48,4 +49,13 @@ A collection of my Java solutions for various DSA problems, organized by topic f
 |  |
 | ------- |
 | [0015-3sum](https://github.com/HarshJNS/DSA-/tree/master/0015-3sum) |
+| [0179-largest-number](https://github.com/HarshJNS/DSA-/tree/master/0179-largest-number) |
+## String
+|  |
+| ------- |
+| [0179-largest-number](https://github.com/HarshJNS/DSA-/tree/master/0179-largest-number) |
+## Greedy
+|  |
+| ------- |
+| [0179-largest-number](https://github.com/HarshJNS/DSA-/tree/master/0179-largest-number) |
 <!---LeetCode Topics End-->
